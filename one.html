@@ -1,0 +1,242 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="viewport" content="width=device-width">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif; margin: 0px; padding: 0px;
+
+background-color: #ffffff;}
+.mySlides {display: none;}
+img {vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 10000px;
+  position: relative;
+  margin: 0px;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 2s ease;
+}
+
+.active {
+  background-color: #3b3b3b;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+ 
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="1.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="meet Bobo the monkey.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Slide 1-2.png" style="width:100%">
+  <div class="text"></div>
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+<header style="background-color: #ffffff;height: 1200px; width: 100%;">
+  
+  
+
+ 
+    <div class="child" style="margin-left: 37%;">
+    <a href="https://makecode.com/_4fiRagCb67s9 " style="text-decoration: none;">
+        <img alt="game 1" src="Screenshot 2022-06-02 at 7.37.38 PM.png"
+        width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+        <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Falling bird</p> </div>
+        <div class="child" style="margin-left: 37%;">
+        <a href="https://makecode.com/_HUh5z4AATXLg " style="text-decoration: none;">
+            <img alt="game 1" src="Untitled design-8.jpg"
+            width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+            <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Tomb Raider</p></a>
+        </div>
+    
+
+        <div class="child" style="margin-left: 37%;">
+            <a href=" 
+            https://makecode.com/_LCCR8z7tuh4d" style="text-decoration: none;">
+                <img alt="game 1" src="Screenshot 2022-05-20 at 3.50.57 PM.png"
+                width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Catch</p></a>
+        </div>
+    
+    
+        <div class="child" style="margin-left: 37%;">
+            <a href=" 
+            https://makecode.com/_HHF143W6XARb" style="text-decoration: none;">
+                <img alt="game 1" src="Screenshot 2022-05-30 at 12.16.41 AM.png"
+                width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Space Destroyer</p>  </a> </div>
+  </div>
+                <div class="child" style="margin-left: 37%;">
+                <a href=" https://makecode.com/_70ueWXcpkULd
+                " style="text-decoration: none;">
+                    <img alt="game 1" src="6.png"
+                    width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                    <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Jumpy Platform</p></a></div>
+                    <div class="child" style="margin-left: 37%;">
+                    <a href=" https://makecode.com/_5zKYKT1i35Eb
+                    " style="text-decoration: none;">
+                        <img alt="game 1" src="pappu.png"
+                        width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                        <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Bobo the Monkey</p></a></div>
+
+                        <div class="child" style="margin-left: 37%;">
+                        <a href=" https://makecode.com/_CtPYPgdUm3P2
+                        " style="text-decoration: none;">
+                            <img alt="game 1" src="Screenshot 2022-05-30 at 12.28.39 AM.png"
+                            width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                            <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Chicken Run</p></div>
+
+                            <div class="child"style="margin-left: 37%;" >
+                            <a href=" https://makecode.com/_Dwi1fLUpwJzJ
+                            " style="text-decoration: none;">
+                                <img alt="game 1" src="Screenshot 2022-05-30 at 12.35.42 AM.png"
+                                width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                                <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Jet Pack Jenny</p></a>
+                            </div>
+
+                            <div class="child"style="margin-left: 37%;" >
+                             <a href="tic tac toe.html
+                            " style="text-decoration: none;">
+                                <img alt="game 1" src="Screenshot 2022-05-30 at 12.38.36 AM.png"
+                                width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                                <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Tic Tac Toe</p>
+                            </div>
+                            <div class="child" style="margin-left: 37%;" >
+                                <a href="pacman.html
+                                " style="text-decoration: none;">
+                                    <img alt="game 1" src="Screenshot 2022-05-30 at 12.43.10 AM.png"
+                                    width=300 height="150" style="border-radius: 20px; margin-left: 40PX;margin-top: 70px;">
+                                    <p style="color: rgb(0, 0, 0);margin-left: 120px;margin-top: 20px;"> Pac man</p></a>
+                                      
+                                
+                                </div>
+
+                                  
+    <br><br><br>
+                              </div></div>
+    </header>
+    <style>
+
+
+li{text-decoration: none;}
+
+
+/* Clear floats after image containers */
+#child { flex: 33.33%;
+  padding: 5px;
+}
+}
+
+#container{
+ display: flex;
+ align-items: center;
+}
+
+
+/* Create three equal columns that sits next to each other */
+
+
+    </style>
+    
+    <header id="aditya"  style="background-color:hsl(0, 0%, 8%);height: 100px; width: 100%;margin-top: 1600px;">
+       <p style="color: #ffffff;text-align: center;padding-top: 40px;">All rights reserved @ Distant Gaming Studio</p>
+   
+    </header>
+    <style></style>
+
+</style>
+</body>
+</html> 
+
